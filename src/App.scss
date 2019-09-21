@@ -1,0 +1,21 @@
+body{
+    background: #000;
+    h1, h2, h5{
+    color: #fff;
+
+    }
+}
+
+.imgwrap{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    
+    .imgwrap img{
+        max-width: 100%;
+        height: 100%;
+    }
+}
+.m20{
+    margin: 20px 0;
+}
