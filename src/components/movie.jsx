@@ -51,7 +51,7 @@ export class Movie extends Component {
                     <div className="card card-body bg-dark my-5 text-light">
                         <div className="col-md-12">
                             <h3>About </h3>
-                            {movie.Plot}
+                            <p>{movie.Plot}</p>
                             <hr />
                             <a
                                 href={'https://www.imdb.com/title/' + movie.imdbID}
